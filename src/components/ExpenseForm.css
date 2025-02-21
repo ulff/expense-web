@@ -4,7 +4,16 @@
   padding: 20px;
   background: white;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.expense-form-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.expense-form-inner form {
+  width: 100%;
 }
 
 .form-title {
@@ -22,23 +31,29 @@
 
 .form-input {
   width: 100%;
-  padding: 8px;
+  padding: 16px;
   border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 15px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+}
+
+.react-datepicker-wrapper {
+  display: block !important;
+  width: 100%;
 }
 
 .submit-button {
   width: 100%;
-  background: #007bff;
+  background: #213b45;
   color: white;
-  padding: 10px;
+  padding: 16px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 1rem;
   cursor: pointer;
 }
 
 .submit-button:hover {
-  background: #0056b3;
+  background: #336374;
 }
